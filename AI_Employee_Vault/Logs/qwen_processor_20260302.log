@@ -1,0 +1,147 @@
+2026-03-02 03:25:10,110 - QwenCodeProcessor - INFO - Starting continuous Qwen Code processing (interval: 60s)
+2026-03-02 03:25:10,110 - QwenCodeProcessor - INFO - Detected 2 action files
+2026-03-02 03:25:10,110 - QwenCodeProcessor - INFO - Starting Ralph Wiggum loop with 2 files
+2026-03-02 03:25:10,110 - QwenCodeProcessor - INFO - Iteration 1/3: 2 files remaining
+2026-03-02 03:25:10,110 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:25:10,110 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:25:10,110 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:25:10,142 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:25:10,142 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:25:10,142 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 1
+2026-03-02 03:25:12,151 - QwenCodeProcessor - INFO - Iteration 2/3: 2 files remaining
+2026-03-02 03:25:12,151 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:25:12,167 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:25:12,167 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:25:12,214 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:25:12,214 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:25:12,230 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 2
+2026-03-02 03:25:14,239 - QwenCodeProcessor - INFO - Iteration 3/3: 2 files remaining
+2026-03-02 03:25:14,239 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:25:14,255 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:25:14,255 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:25:14,270 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:25:14,286 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:25:14,286 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 3
+2026-03-02 03:25:16,296 - QwenCodeProcessor - WARNING - Ralph loop completed but 2 files still remain
+2026-03-02 03:26:16,305 - QwenCodeProcessor - INFO - Detected 2 action files
+2026-03-02 03:26:16,310 - QwenCodeProcessor - INFO - Starting Ralph Wiggum loop with 2 files
+2026-03-02 03:26:16,310 - QwenCodeProcessor - INFO - Iteration 1/3: 2 files remaining
+2026-03-02 03:26:16,310 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:26:16,310 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:26:16,310 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:26:16,342 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:26:16,342 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:26:16,358 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 1
+2026-03-02 03:26:18,362 - QwenCodeProcessor - INFO - Iteration 2/3: 2 files remaining
+2026-03-02 03:26:18,362 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:26:18,378 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:26:18,394 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:26:18,409 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:26:18,425 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:26:18,425 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 2
+2026-03-02 03:26:20,447 - QwenCodeProcessor - INFO - Iteration 3/3: 2 files remaining
+2026-03-02 03:26:20,448 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:26:20,463 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:26:20,464 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:26:20,497 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:26:20,497 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:26:20,516 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 3
+2026-03-02 03:26:22,524 - QwenCodeProcessor - WARNING - Ralph loop completed but 2 files still remain
+2026-03-02 03:27:22,528 - QwenCodeProcessor - INFO - Detected 2 action files
+2026-03-02 03:27:22,528 - QwenCodeProcessor - INFO - Starting Ralph Wiggum loop with 2 files
+2026-03-02 03:27:22,543 - QwenCodeProcessor - INFO - Iteration 1/3: 2 files remaining
+2026-03-02 03:27:22,559 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:27:22,574 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:27:22,590 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:27:22,621 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:27:22,621 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:27:22,621 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 1
+2026-03-02 03:27:24,642 - QwenCodeProcessor - INFO - Iteration 2/3: 2 files remaining
+2026-03-02 03:27:24,642 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:27:24,642 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:27:24,658 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:27:24,689 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:27:24,689 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:27:24,704 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 2
+2026-03-02 03:27:26,725 - QwenCodeProcessor - INFO - Iteration 3/3: 2 files remaining
+2026-03-02 03:27:26,725 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:27:26,725 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:27:26,741 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:27:26,756 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:27:26,772 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:27:26,788 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 3
+2026-03-02 03:27:28,800 - QwenCodeProcessor - WARNING - Ralph loop completed but 2 files still remain
+2026-03-02 03:28:28,808 - QwenCodeProcessor - INFO - Detected 2 action files
+2026-03-02 03:28:28,808 - QwenCodeProcessor - INFO - Starting Ralph Wiggum loop with 2 files
+2026-03-02 03:28:28,824 - QwenCodeProcessor - INFO - Iteration 1/3: 2 files remaining
+2026-03-02 03:28:28,824 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:28:28,824 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:28:28,839 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:28:28,855 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:28:28,870 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:28:28,870 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 1
+2026-03-02 03:28:30,886 - QwenCodeProcessor - INFO - Iteration 2/3: 2 files remaining
+2026-03-02 03:28:30,886 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:28:30,886 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:28:30,902 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:28:30,917 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:28:30,917 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:28:30,933 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 2
+2026-03-02 03:28:32,947 - QwenCodeProcessor - INFO - Iteration 3/3: 2 files remaining
+2026-03-02 03:28:32,947 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:28:32,947 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:28:32,963 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:28:32,979 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:28:32,979 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:28:32,994 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 3
+2026-03-02 03:28:35,014 - QwenCodeProcessor - WARNING - Ralph loop completed but 2 files still remain
+2026-03-02 03:29:35,031 - QwenCodeProcessor - INFO - Detected 2 action files
+2026-03-02 03:29:35,031 - QwenCodeProcessor - INFO - Starting Ralph Wiggum loop with 2 files
+2026-03-02 03:29:35,031 - QwenCodeProcessor - INFO - Iteration 1/3: 2 files remaining
+2026-03-02 03:29:35,046 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:29:35,046 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:29:35,046 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:29:35,062 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:29:35,078 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:29:35,078 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 1
+2026-03-02 03:29:37,093 - QwenCodeProcessor - INFO - Iteration 2/3: 2 files remaining
+2026-03-02 03:29:37,093 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:29:37,108 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:29:37,108 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:29:37,139 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:29:37,139 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:29:37,155 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 2
+2026-03-02 03:29:39,168 - QwenCodeProcessor - INFO - Iteration 3/3: 2 files remaining
+2026-03-02 03:29:39,168 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 03:29:39,168 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 03:29:39,184 - QwenCodeProcessor - INFO - Running: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 03:29:39,199 - QwenCodeProcessor - ERROR - Qwen Code not found! Make sure it's installed and in PATH.
+2026-03-02 03:29:39,199 - QwenCodeProcessor - ERROR - Install with: npm install -g @anthropic/qwen-code
+2026-03-02 03:29:39,215 - QwenCodeProcessor - WARNING - Qwen Code invocation failed on iteration 3
+2026-03-02 03:29:41,235 - QwenCodeProcessor - WARNING - Ralph loop completed but 2 files still remain
+2026-03-02 03:29:43,550 - QwenCodeProcessor - INFO - Continuous processing stopped by user
+2026-03-02 18:38:49,260 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 18:38:49,260 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 18:38:49,269 - QwenCodeProcessor - INFO - Trying command: qwen --current-dir ..\AI_Employee_Vault --verbose Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 18:38:53,695 - QwenCodeProcessor - INFO - Qwen Code exited with code: 1
+2026-03-02 18:40:19,827 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 18:40:19,828 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 18:40:19,832 - QwenCodeProcessor - INFO - Trying command: qwen Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise>
+2026-03-02 18:41:23,317 - QwenCodeProcessor - INFO - Qwen Code exited with code: 0
+2026-03-02 18:42:30,456 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-02 18:42:30,461 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-02 18:42:30,464 - QwenCodeProcessor - INFO - Trying command: qwen Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise> -y
+2026-03-02 18:43:09,751 - QwenCodeProcessor - INFO - Qwen Code exited with code: 0
+2026-03-02 22:33:56,283 - QwenCodeProcessor - INFO - Starting continuous Qwen Code processing (interval: 60s)
+2026-03-02 22:45:20,568 - QwenCodeProcessor - INFO - Continuous processing stopped by user
+2026-03-02 22:50:58,036 - QwenCodeProcessor - INFO - Starting continuous Qwen Code processing (interval: 60s)
+2026-03-02 23:01:07,099 - QwenCodeProcessor - INFO - Starting continuous Qwen Code processing (interval: 60s)
+2026-03-02 23:05:28,401 - QwenCodeProcessor - INFO - Starting continuous Qwen Code processing (interval: 60s)
+2026-03-04 19:42:11,469 - QwenCodeProcessor - INFO - Detected 2 action files
+2026-03-04 19:42:11,484 - QwenCodeProcessor - INFO - Starting Ralph Wiggum loop with 2 files
+2026-03-04 19:42:11,485 - QwenCodeProcessor - INFO - Iteration 1/3: 2 files remaining
+2026-03-04 19:42:11,487 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-04 19:42:11,493 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-04 19:42:11,504 - QwenCodeProcessor - INFO - Trying command: qwen Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise> -y
+2026-03-04 19:43:37,444 - QwenCodeProcessor - INFO - Qwen Code exited with code: 0
+2026-03-04 19:43:39,446 - QwenCodeProcessor - INFO - All files processed successfully!

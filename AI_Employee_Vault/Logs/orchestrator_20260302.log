@@ -1,0 +1,45 @@
+2026-03-02 22:50:57,787 - Orchestrator - INFO - Orchestrator initialized for vault: ..\AI_Employee_Vault
+2026-03-02 22:50:57,788 - Orchestrator - INFO - Registered watcher: filesystem_watcher
+2026-03-02 22:50:57,789 - Orchestrator - INFO - Registered watcher: qwen_processor
+2026-03-02 22:50:57,790 - Orchestrator - INFO - Qwen Code auto-processor enabled
+2026-03-02 22:50:57,805 - Orchestrator - INFO - Started watcher 'filesystem_watcher' with PID 24060
+2026-03-02 22:50:57,824 - Orchestrator - INFO - Started watcher 'qwen_processor' with PID 20948
+2026-03-02 22:50:57,826 - Orchestrator - INFO - Starting orchestrator main loop
+2026-03-02 22:50:57,830 - Orchestrator - CRITICAL - Orchestrator error: 'charmap' codec can't decode byte 0x8f in position 469: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\computer lab\Documents\GitHub\personal-employee-FTEs\watchers\orchestrator.py", line 388, in run
+    self.update_dashboard()
+  File "C:\Users\computer lab\Documents\GitHub\personal-employee-FTEs\watchers\orchestrator.py", line 312, in update_dashboard
+    content = self.dashboard.read_text()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\pathlib.py", line 1028, in read_text
+    return f.read()
+           ^^^^^^^^
+  File "C:\Python312\Lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8f in position 469: character maps to <undefined>
+2026-03-02 22:50:59,233 - Orchestrator - INFO - Shutting down orchestrator...
+2026-03-02 22:50:59,295 - Orchestrator - INFO - Stopped watcher: filesystem_watcher
+2026-03-02 22:50:59,313 - Orchestrator - INFO - Stopped watcher: qwen_processor
+2026-03-02 22:50:59,314 - Orchestrator - INFO - Orchestrator shutdown complete
+2026-03-02 23:01:06,826 - Orchestrator - INFO - Orchestrator initialized for vault: ..\AI_Employee_Vault
+2026-03-02 23:01:06,827 - Orchestrator - INFO - Registered watcher: filesystem_watcher
+2026-03-02 23:01:06,827 - Orchestrator - INFO - Registered watcher: qwen_processor
+2026-03-02 23:01:06,827 - Orchestrator - INFO - Qwen Code auto-processor enabled
+2026-03-02 23:01:06,838 - Orchestrator - INFO - Started watcher 'filesystem_watcher' with PID 16436
+2026-03-02 23:01:06,851 - Orchestrator - INFO - Started watcher 'qwen_processor' with PID 13884
+2026-03-02 23:01:06,851 - Orchestrator - INFO - Starting orchestrator main loop
+2026-03-02 23:05:28,140 - Orchestrator - INFO - Orchestrator initialized for vault: ..\AI_Employee_Vault
+2026-03-02 23:05:28,140 - Orchestrator - INFO - Registered watcher: filesystem_watcher
+2026-03-02 23:05:28,140 - Orchestrator - INFO - Registered watcher: qwen_processor
+2026-03-02 23:05:28,140 - Orchestrator - INFO - Qwen Code auto-processor enabled
+2026-03-02 23:05:28,156 - Orchestrator - INFO - Started watcher 'filesystem_watcher' with PID 22100
+2026-03-02 23:05:28,166 - Orchestrator - INFO - Started watcher 'qwen_processor' with PID 5604
+2026-03-02 23:05:28,169 - Orchestrator - INFO - Starting orchestrator main loop
+2026-03-04 19:42:11,604 - Orchestrator - INFO - Found 2 action files, triggering Qwen Code
+2026-03-04 19:42:11,631 - Orchestrator - INFO - Invoking Qwen Code processor...
+2026-03-04 19:42:32,830 - Orchestrator - INFO - Found 3 action files, triggering Qwen Code
+2026-03-04 19:42:32,834 - Orchestrator - INFO - Invoking Qwen Code processor...
+2026-03-04 19:43:29,674 - Orchestrator - INFO - Qwen processor exited with code: 0
+2026-03-04 19:43:56,238 - Orchestrator - INFO - Qwen processor exited with code: 0

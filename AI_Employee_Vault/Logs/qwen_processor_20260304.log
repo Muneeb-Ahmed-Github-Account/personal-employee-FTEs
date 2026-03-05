@@ -1,0 +1,13 @@
+2026-03-04 19:40:20,719 - QwenCodeProcessor - INFO - Starting continuous Qwen Code processing (interval: 60s)
+2026-03-04 19:42:11,939 - QwenCodeProcessor - INFO - Found 2 action files, invoking Qwen Code
+2026-03-04 19:42:11,943 - QwenCodeProcessor - INFO - Created Qwen prompt file with 2 action files
+2026-03-04 19:42:11,945 - QwenCodeProcessor - INFO - Trying command: qwen Process all 2 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise> -y
+2026-03-04 19:42:20,657 - QwenCodeProcessor - INFO - Found 3 action files, invoking Qwen Code
+2026-03-04 19:42:20,663 - QwenCodeProcessor - INFO - Created Qwen prompt file with 3 action files
+2026-03-04 19:42:20,667 - QwenCodeProcessor - INFO - Trying command: qwen Process all 3 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise> -y
+2026-03-04 19:42:33,116 - QwenCodeProcessor - INFO - Found 3 action files, invoking Qwen Code
+2026-03-04 19:42:33,118 - QwenCodeProcessor - INFO - Created Qwen prompt file with 3 action files
+2026-03-04 19:42:33,124 - QwenCodeProcessor - INFO - Trying command: qwen Process all 3 files in ./Needs_Action folder. Create plans, execute them, and move completed files to ./Done. When all files are processed, output: <promise>TASK_COMPLETE</promise> -y
+2026-03-04 19:43:29,647 - QwenCodeProcessor - INFO - Qwen Code exited with code: 0
+2026-03-04 19:43:30,980 - QwenCodeProcessor - INFO - Qwen Code exited with code: 0
+2026-03-04 19:43:56,213 - QwenCodeProcessor - INFO - Qwen Code exited with code: 0

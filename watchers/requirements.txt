@@ -1,0 +1,19 @@
+# AI Employee - Python Dependencies
+# Bronze Tier Requirements
+
+# Core dependencies for watchers
+watchdog>=3.0.0  # File system monitoring
+
+# Optional: For Gmail watcher (future tiers)
+# google-auth>=2.0.0
+# google-auth-oauthlib>=1.0.0
+# google-auth-httplib2>=0.1.0
+# google-api-python-client>=2.0.0
+
+# Optional: For WhatsApp watcher (future tiers)
+# playwright>=1.40.0
+
+# Development
+# pytest>=7.0.0  # Testing
+# black>=23.0.0  # Code formatting
+# mypy>=1.0.0    # Type checking
