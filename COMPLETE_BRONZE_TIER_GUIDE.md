@@ -1,292 +1,291 @@
-# 🎯 COMPLETE BRONZE TIER GUIDE
+# 🥉 Bronze Tier - Complete Guide
 
-## What's New: Automatic Qwen Code Processing!
+## Personal AI Employee - Bronze Tier Implementation
 
-The Bronze Tier is now **COMPLETE** with automatic Qwen Code processing. When you drop a file, the system:
+**Status:** ✅ **COMPLETE & WORKING**
 
-1. ✅ Detects the file (File System Watcher)
-2. ✅ Creates action file (in `Needs_Action/`)
-3. ✅ **Auto-invokes Qwen Code** (Qwen Processor)
-4. ✅ Qwen reads, plans, and executes
-5. ✅ Moves completed task to `Done/`
+**Last Updated:** March 28, 2026
 
 ---
 
-## 🚀 Quick Start - Complete System
+## 📋 Bronze Tier Requirements (from Blueprint)
 
-### Option 1: One-Click Start (Recommended)
+| # | Requirement | Status | Implementation |
+|---|-------------|--------|----------------|
+| 1 | Obsidian vault with Dashboard.md | ✅ COMPLETE | Dashboard.md created |
+| 2 | Company_Handbook.md | ✅ COMPLETE | Rules of engagement |
+| 3 | Business_Goals.md | ✅ COMPLETE | Q1 2026 objectives |
+| 4 | One working Watcher script | ✅ COMPLETE | File System Watcher |
+| 5 | Claude/Qwen Code integration | ✅ COMPLETE | Reads/writes to vault |
+| 6 | Basic folder structure | ✅ COMPLETE | /Inbox, /Needs_Action, /Done |
 
-```bash
-cd watchers
-start-all.bat
+---
+
+## 📁 Project Structure
+
 ```
-
-This starts:
-- File System Watcher
-- Qwen Code Auto-Processor
-
-### Option 2: Orchestrator with Auto-Qwen
-
-```bash
-cd watchers
-python orchestrator.py --vault "../AI_Employee_Vault" --auto-qwen
-```
-
-### Option 3: Separate Processes
-
-**Terminal 1 - Watcher:**
-```bash
-cd watchers
-python filesystem_watcher.py --vault "../AI_Employee_Vault"
-```
-
-**Terminal 2 - Qwen Processor:**
-```bash
-cd watchers
-python qwen_processor.py --vault "../AI_Employee_Vault" --interval 60
+personal-employee-FTEs/
+├── AI_Employee_Vault/              # Obsidian Vault
+│   ├── Inbox/                      # Drop zone for new files
+│   │   └── Drop/                  # File drop folder (watched)
+│   ├── Needs_Action/              # Action files
+│   ├── In_Progress/               # Items being processed
+│   ├── Done/                      # Completed tasks
+│   ├── Pending_Approval/          # Awaiting approval
+│   ├── Approved/                  # Approved actions
+│   ├── Rejected/                  # Rejected actions
+│   ├── Plans/                     # Task plans
+│   ├── Briefings/                 # CEO briefings
+│   ├── Logs/                      # System logs
+│   ├── Invoices/                  # Invoice storage
+│   ├── Accounting/                # Accounting records
+│   ├── Dashboard.md               # Real-time status
+│   ├── Company_Handbook.md        # Rules of engagement
+│   └── Business_Goals.md          # Q1 2026 objectives
+│
+├── watchers/                       # Python Watchers
+│   ├── base_watcher.py            # Abstract base class
+│   ├── filesystem_watcher.py      # File system monitor
+│   ├── orchestrator.py            # Master orchestrator
+│   └── requirements.txt           # Python dependencies
+│
+├── credentials.json                # Gmail API credentials
+└── README.md                       # Project overview
 ```
 
 ---
 
-## 📋 Complete Workflow Example
+## 🚀 How to Run Bronze Tier
 
-### Step 1: Start the System
+### **Option 1: Start File Watcher**
 
 ```bash
-cd watchers
+cd "C:\Users\computer lab\Documents\GitHub\personal-employee-FTEs\watchers"
+python filesystem_watcher.py --vault "../AI_Employee_Vault" --interval 30
+```
+
+**What it does:**
+- ✅ Monitors `Inbox/Drop/` folder every 30 seconds
+- ✅ Detects new files dropped
+- ✅ Creates action files in `Needs_Action/`
+- ✅ Copies dropped files to `Inbox/`
+- ✅ Logs all actions to `Logs/filesystem_watcher.log`
+
+---
+
+### **Option 2: Start Orchestrator**
+
+```bash
+cd "C:\Users\computer lab\Documents\GitHub\personal-employee-FTEs\watchers"
 python orchestrator.py --vault "../AI_Employee_Vault" --auto-qwen
 ```
 
-**Expected output:**
-```
-00:00:00 - Orchestrator - INFO - Starting orchestrator main loop
-00:00:00 - Orchestrator - INFO - Registered watcher: filesystem_watcher
-00:00:00 - Orchestrator - INFO - Registered watcher: qwen_processor
-00:00:00 - Orchestrator - INFO - Started watcher 'filesystem_watcher' with PID 12345
-00:00:00 - Orchestrator - INFO - Qwen Code auto-processor enabled
-```
+**What it does:**
+- ✅ Starts File System Watcher
+- ✅ Starts Qwen Code Auto-Processor
+- ✅ Monitors `Needs_Action/` for action files
+- ✅ Triggers Qwen Code when files detected
+- ✅ Updates Dashboard.md
 
-### Step 2: Drop a File
+---
 
-Copy a file to:
-```
-AI_Employee_Vault/Inbox/Drop/test_document.txt
-```
+### **Option 3: Process with Qwen Code Manually**
 
-**Content of test file:**
-```
-Please summarize this document and tell me the key points.
+```bash
+cd "C:\Users\computer lab\Documents\GitHub\personal-employee-FTEs\AI_Employee_Vault"
+qwen "Process all files in ./Needs_Action folder"
 ```
 
-### Step 3: Watch the Magic
+**What it does:**
+- ✅ Reads action files
+- ✅ Creates Plan.md with steps
+- ✅ Executes tasks
+- ✅ Moves completed files to `Done/`
 
-**Terminal output:**
+---
+
+## 📊 Complete Workflow
+
 ```
-00:00:30 - FileSystemWatcher - INFO - Found new file: test_document.txt
-00:00:30 - FileSystemWatcher - INFO - Created action file: FILE_DROP_test_document_20260301_120000.md
-00:00:30 - Orchestrator - INFO - Found 1 action files, triggering Qwen Code
-00:00:30 - Orchestrator - INFO - Invoking Qwen Code processor...
-00:00:31 - QwenCodeProcessor - INFO - Found 1 action files, invoking Qwen Code
-00:00:31 - QwenCodeProcessor - INFO - Created Qwen prompt file with 1 action files
+┌─────────────────────────────────────────────────────────────┐
+│                 BRONZE TIER WORKFLOW                         │
+└─────────────────────────────────────────────────────────────┘
+
+Drop file in Inbox/Drop/
+   ↓ (File System Watcher - AUTO)
+Creates action file in Needs_Action/
+   ↓ (Qwen Code - You run command)
+Reads and processes file
+Creates Plan.md
+Executes tasks
+   ↓ (Qwen Code - AUTO)
+Moves to Done/
 ```
 
-### Step 4: Qwen Code Processes
+### Example Output:
 
-Qwen Code will:
-1. Read the action file
-2. Read the dropped file
-3. Create a Plan.md
-4. Execute the plan (summarize document)
-5. Update Dashboard.md
-6. Move file to `Done/`
+**File System Watcher:**
+```
+[12:00:00] FileSystemWatcher - INFO - Found new file: document.pdf
+[12:00:00] FileSystemWatcher - INFO - Created action file: FILE_DROP_document_20260328_120000.md
+```
 
-**Qwen output:**
+**Qwen Code:**
 ```
 I found 1 action file in ./Needs_Action
 
-### FILE_DROP_test_document_20260301_120000.md
+### FILE_DROP_document_20260328_120000.md
 - Type: file_drop
-- Original: test_document.txt
+- Original: document.pdf
 
 ## Plan
-1. [ ] Read the document content
-2. [ ] Identify key points
-3. [ ] Create summary
+1. [ ] Read the file content
+2. [ ] Determine required action
+3. [ ] Execute action
 4. [ ] Update Dashboard.md
 5. [ ] Move to Done/
 
-Executing...
-
-### Summary
-The document contains...
-
-<promise>TASK_COMPLETE</promise>
-```
-
-### Step 5: Verify Completion
-
-**Check Done folder:**
-```bash
-dir AI_Employee_Vault\Done
-```
-
-**Expected:**
-```
-FILE_DROP_test_document_20260301_120000.md
-```
-
-**Check logs:**
-```bash
-type AI_Employee_Vault\Logs\qwen_processor_*.log
+Executing step 1...
 ```
 
 ---
 
-## 📁 File Structure
+## 🎯 Automation Status
 
+| Step | Action | Automatic? |
+|------|--------|------------|
+| 1 | Drop file in Inbox/Drop/ | ❌ You (Manual) |
+| 2 | File System Watcher detects | ✅ **YES** (every 30 sec) |
+| 3 | Creates action file | ✅ **YES** |
+| 4 | Qwen Code processes | ❌ You run command |
+| 5 | Creates Plan.md | ✅ **YES** (Qwen) |
+| 6 | Executes tasks | ✅ **YES** (Qwen) |
+| 7 | Moves to Done/ | ✅ **YES** (Qwen) |
+
+---
+
+## 📝 Quick Start Commands
+
+### Start File Watcher:
+```bash
+cd watchers
+python filesystem_watcher.py --vault "../AI_Employee_Vault" --interval 30
 ```
-AI_Employee_Vault/
-├── Inbox/
-│   └── Drop/           ← Drop files here
-├── Needs_Action/       ← Action files created here
-├── In_Progress/        ← Files being processed
-├── Done/               ← Completed tasks
-├── Pending_Approval/   ← Awaiting your decision
-├── Approved/           ← Approved actions
-├── Plans/              ← Qwen's plans
-├── Logs/               ← System logs
-├── Dashboard.md        ← Real-time status
-├── Company_Handbook.md ← Rules
-└── Business_Goals.md   ← Objectives
 
-watchers/
-├── base_watcher.py         ← Base class
-├── filesystem_watcher.py   ← File monitor
-├── qwen_processor.py       ← Qwen auto-invoker
-├── orchestrator.py         ← Master process
-├── start-all.bat           ← One-click start
-└── requirements.txt        ← Dependencies
+### Start Orchestrator:
+```bash
+cd watchers
+python orchestrator.py --vault "../AI_Employee_Vault" --auto-qwen
+```
+
+### Process with Qwen:
+```bash
+cd AI_Employee_Vault
+qwen "Process all files in ./Needs_Action"
+```
+
+### Test File Drop:
+```bash
+echo "Test document" > "AI_Employee_Vault\Inbox\Drop\test.txt"
+# Wait 30 seconds
+# Check Needs_Action/ for action file
 ```
 
 ---
 
-## 🔧 Command Reference
+## 🛡️ Security & Best Practices
 
-### Start Commands
+### File Handling:
+- ✅ Files copied (not moved) from Drop folder
+- ✅ Original files preserved in `Inbox/`
+- ✅ Action files contain metadata (size, hash, timestamp)
+- ✅ Deduplication via MD5 hash tracking
 
-| Command | Purpose |
-|---------|---------|
-| `start-all.bat` | Start everything (Windows) |
-| `python orchestrator.py --vault "../AI_Employee_Vault" --auto-qwen` | Orchestrator + auto Qwen |
-| `python filesystem_watcher.py --vault "../AI_Employee_Vault"` | Just the watcher |
-| `python qwen_processor.py --vault "../AI_Employee_Vault"` | Just Qwen processor |
+### Logging:
+- ✅ All actions logged to `Logs/` folder
+- ✅ State files saved (`.state_*.json`)
+- ✅ Processed IDs tracked (prevents duplicates)
 
-### Qwen Code Commands
+### Error Handling:
+- ✅ Graceful degradation on errors
+- ✅ Continues running after failures
+- ✅ Logs errors for review
 
-| Command | Purpose |
-|---------|---------|
-| `qwen "Process files in ./Needs_Action"` | Manual processing |
-| `qwen "Process files... <promise>TASK_COMPLETE</promise>"` | With completion signal |
+---
 
-### Options
+## 📋 Files Reference
 
-| Option | Description |
-|--------|-------------|
-| `--vault PATH` | Path to Obsidian vault |
-| `--interval SECONDS` | Check interval (default: 30/60) |
-| `--auto-qwen` | Enable auto Qwen invocation |
-| `--verbose, -v` | Debug logging |
-| `--once` | Process once and exit |
+### Watchers (`watchers/`):
+
+| File | Purpose | Status |
+|------|---------|--------|
+| `base_watcher.py` | Abstract base class | ✅ Working |
+| `filesystem_watcher.py` | File system monitor | ✅ Working |
+| `orchestrator.py` | Master orchestrator | ✅ Working |
+| `qwen_processor.py` | Qwen Code auto-processor | ✅ Working |
+
+### Vault Files (`AI_Employee_Vault/`):
+
+| File | Purpose |
+|------|---------|
+| `Dashboard.md` | Real-time system status |
+| `Company_Handbook.md` | Rules of engagement |
+| `Business_Goals.md` | Q1 2026 objectives |
 
 ---
 
 ## ✅ Bronze Tier Checklist
 
-- [x] Obsidian vault with Dashboard.md
-- [x] Company_Handbook.md with rules
-- [x] Business_Goals.md template
-- [x] File System Watcher (working)
-- [x] Qwen Processor (auto-invokes Qwen)
-- [x] Orchestrator (coordinates everything)
-- [x] Basic folder structure
-- [x] Automatic Qwen Code integration
-- [x] Ralph Wiggum loop pattern
-- [x] Complete documentation
+### Required Deliverables:
+- [x] **Obsidian vault with Dashboard.md** - Created with real-time stats
+- [x] **Company_Handbook.md** - Rules and guidelines
+- [x] **Business_Goals.md** - Objectives and metrics
+- [x] **One working Watcher script** - File System Watcher
+- [x] **Qwen Code integration** - Reads/writes to vault
+- [x] **Basic folder structure** - All folders created
+
+### Optional Enhancements:
+- [x] File deduplication (MD5 hash)
+- [x] State persistence across restarts
+- [x] Comprehensive logging
+- [x] Error recovery
+- [x] Dashboard updates
 
 ---
 
-## 🆘 Troubleshooting
+## 🎉 Bronze Tier Status: **COMPLETE**
 
-### "Qwen Code not found"
+**All blueprint requirements met!**
 
-```bash
-# Check installation
-qwen --version
+- ✅ Dashboard.md with real-time status
+- ✅ Company_Handbook.md with rules
+- ✅ Business_Goals.md with objectives
+- ✅ File System Watcher working
+- ✅ Qwen Code integration working
+- ✅ All folders created
 
-# Install if needed
-npm install -g @anthropic/qwen-code
-```
-
-### "No action files processed"
-
-1. Check watcher is running (look for log output)
-2. Verify file was dropped in `Inbox/Drop/` (not just `Inbox/`)
-3. Check logs: `Logs/qwen_processor_*.log`
-4. Try manual processing: `qwen "Process files in ./Needs_Action"`
-
-### "Qwen exits early"
-
-1. Check `.qwen_prompt.md` for the prompt
-2. Re-run with Ralph Wiggum loop:
-   ```bash
-   qwen "Keep working until all files in Needs_Action are moved to Done"
-   ```
-
-### "Files stuck in Needs_Action"
-
-1. Check Qwen output for errors
-2. Manually run: `qwen "Process remaining files in ./Needs_Action"`
-3. Check file permissions on vault
+**Your AI Employee Bronze Tier is PRODUCTION READY!** 🚀
 
 ---
 
-## 📊 What Makes This Complete?
+## 🔧 Troubleshooting
 
-The original Bronze tier was **incomplete** because:
-- ❌ Watcher created action files
-- ❌ But nothing processed them automatically
-- ❌ Required manual Qwen invocation
+### Watcher not detecting files:
+1. Check file was dropped in `Inbox/Drop/` (not just `Inbox/`)
+2. Verify watcher is running (check terminal output)
+3. Check logs in `Logs/filesystem_watcher.log`
 
-Now it's **complete** because:
-- ✅ Watcher creates action files
-- ✅ Orchestrator detects new files
-- ✅ **Auto-invokes Qwen Code**
-- ✅ Qwen processes files automatically
-- ✅ Completed tasks archived in `Done/`
+### Qwen not processing files:
+1. Verify files are in `Needs_Action/` folder
+2. Run Qwen from `AI_Employee_Vault` folder
+3. Check for `.md` file extension
 
----
-
-## 🎉 Success Indicators
-
-You'll know it's working when:
-
-1. ✅ Drop file → Action file appears within 30 seconds
-2. ✅ Qwen Code automatically starts processing
-3. ✅ You see Qwen output with plan and execution
-4. ✅ File moves to `Done/` folder
-5. ✅ Dashboard.md updated with activity
-6. ✅ Logs show complete processing chain
+### Action files not created:
+1. Check watcher terminal for errors
+2. Verify `Needs_Action/` folder exists
+3. Check file permissions
 
 ---
 
-## 📚 Additional Resources
-
-- `USING_QWEN_CODE.md` - Detailed Qwen Code guide
-- `.claude/QWEN.md` - Ralph Wiggum loop plugin
-- `.qwen/skills/ai-employee-processor/SKILL.md` - Qwen skill definition
-- `README.md` - Main documentation
-
----
-
-*AI Employee v0.1 (Bronze Tier - COMPLETE)*
-*Last Updated: March 1, 2026*
+*Generated: March 28, 2026*  
+*AI Employee v0.1 (Bronze Tier - Complete)*
