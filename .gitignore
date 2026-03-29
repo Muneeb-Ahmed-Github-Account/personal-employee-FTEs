@@ -5,6 +5,7 @@ credentials.json
 .linkedin_session/
 .env
 *.env
+node_modules/
 
 # Python
 __pycache__/
