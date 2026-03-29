@@ -1,0 +1,47 @@
+# Sensitive Files - NEVER commit these
+credentials.json
+*.token.json
+.gmail_token.json
+.linkedin_session/
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+AI_Employee_Vault/Logs/
+
+# State files
+.state_*.json
+.qwen_prompt.md
+
+# Obsidian
+.obsidian/
+AI_Employee_Vault/.obsidian/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+~$*.doc*
+~$*.xls*
